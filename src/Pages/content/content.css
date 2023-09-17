@@ -1,0 +1,27 @@
+/* start first-movie */
+.landing .first-movie .image{
+    height: 30rem;
+}
+.landing .first-movie .image img{
+    object-fit: cover;
+}
+.landing .first-movie .layout{
+    background-color: rgba(0, 0, 0, 0.59);
+}
+.landing .first-movie .text p{
+    line-height: 1.4;
+}
+/* end first movie */
+
+/* start movies content */
+.movie-card{
+    box-shadow: white 7px 1px 34px -24px;
+}
+.movie-card .image{
+    height: 25rem;
+}
+.movie-card:hover img{
+    transform: scale(1.1);
+    transition: var(--main-transition);
+}
+/* end movies content */

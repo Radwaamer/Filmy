@@ -1,0 +1,10 @@
+.pagesbar ul li a{
+    min-width: 2rem;
+    height: 2.3rem;
+}
+.pagesbar ul li:not(:first-child,:last-child):hover a{
+    color: var(--main-color);
+}
+.pagesbar ul li.selected,.pagesbar ul li.disabled{
+    opacity: 0.5;
+}

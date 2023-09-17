@@ -1,0 +1,15 @@
+aside{
+    height: 100vh;
+    width: 18rem;
+}
+aside h1{
+    font-size: 3rem;
+}
+aside .sidebar-items a:hover p{
+    transition: var(--main-transition);
+    transform: translateX(0.9rem);
+}
+aside .sidebar-items a.active,
+aside .sidebar-items a:hover{
+    color: var(--main-color);
+}

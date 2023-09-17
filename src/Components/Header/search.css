@@ -1,0 +1,16 @@
+.search form{
+    width: fit-content;
+}
+.search #search{
+    background-color: transparent;
+    min-width: 25rem;
+    color: white;
+}
+.search .icon{
+    right: 0.6rem;
+    color: var(--main-color);
+}
+.search .icon:focus{
+    box-shadow: none;
+    border: none;
+}

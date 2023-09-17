@@ -1,0 +1,9 @@
+.movie{
+    min-height: calc(100vh - 4.7rem);
+}
+.movie .image{
+    box-shadow: white 7px 1px 34px -24px;
+}
+.movie .details .overview p{
+    line-height: 1.8;
+}
